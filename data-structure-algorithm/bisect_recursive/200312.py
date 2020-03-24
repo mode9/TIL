@@ -38,19 +38,16 @@ def search_all_index_in_list(L, x):
 
 
 def binary_search(L, x):
-    answer = -1
     lower = 0
     upper = len(L) - 1
     while lower <= upper:
         middle = (lower + upper) // 2
-        if L[middle] == x:
-            return middle
-        elif L[middle] < x:
+        if L[middle] < x:
             lower = middle + 1
-        elif L[middle] > x:
-            upper = middle - 1
+        else:
+            upper = middle
 
-    return answer
+    return lower
 
 
 def fibonacci_recursive(n):
@@ -68,25 +65,7 @@ def fibonacci_iterative(n):
     return a
 
 
-def main():
-    # lst = [1, 23, 24, 53, 2, 50, 29, 93]
-    # lst.sort()
-    # element = 22
-    #
-    # print(insert_element_into_list(lst, element))
-    # lst.append(23)
-    # lst.append(23)
-    # lst.append(23)
-    # lst.sort()
-    # element = 23
-    # print(search_all_element_in_list(lst, element))
-    # print(solution([2, 3, 5, 6, 9], 4))
-    print(fibonacci_recursive(0))
-    print(fibonacci_iterative(0))
-    i = 1
-    x = i if i > 1 else None
-    print(x)
-
-
 if __name__ == '__main__':
-    main()
+    lst = [1, 3, 6, 9, 10, 20, 35, 70]
+    idx = binary_search(lst, 3)
+    print(lst[idx])

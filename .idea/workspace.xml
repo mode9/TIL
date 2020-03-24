@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62108c4f-dab3-47b4-a0d6-69eedd115a30" name="Default Changelist" comment="" />
+    <list default="true" id="62108c4f-dab3-47b4-a0d6-69eedd115a30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/brute_force/blackjack/200324.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/brute_force/blackjack/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/heap/200323.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/heap/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/queue/200316.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/stack/200314.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/stack/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/tree/BinarySearchTree/200317.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/tree/BinarySearchTree/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/tree/BinaryTree/200317.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure-algorithm/tree/BinaryTree/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure-algorithm/200311.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-algorithm/binary_hexa/200311.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure-algorithm/200312.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-algorithm/bisect_recursive/200312.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure-algorithm/200313.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-algorithm/linked_list/200313.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure-algorithm/tmp.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-algorithm/linked_list/readme.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +47,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YzCMyl4Wn14EpOHnkOcUEwAo85" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -42,7 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data-structure-algorithm" />
+      <recent name="$PROJECT_DIR$/data-structure-algorithm/brute_force/blackjack" />
+      <recent name="$PROJECT_DIR$/data-structure-algorithm/tree" />
+      <recent name="$PROJECT_DIR$/data-structure-algorithm/tree/binaryTree" />
+      <recent name="$PROJECT_DIR$/data-structure-algorithm/bisect_recursive" />
+      <recent name="$PROJECT_DIR$/data-structure-algorithm/binary_hexa" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -57,29 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.200313">
-    <configuration name="200311" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="til" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structure-algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/200311.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.200324">
     <configuration name="200312" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="til" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +100,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/200312.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/bisect_recursive/200312.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +122,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/200313.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/linked_list/200313.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="200314" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="til" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structure-algorithm/stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/stack/200314.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="200316" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="til" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structure-algorithm/queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/queue/200316.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="200324" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="til" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-structure-algorithm/brute_force" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-structure-algorithm/brute_force/blackjack/200324.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,9 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.200313" />
+        <item itemvalue="Python.200324" />
         <item itemvalue="Python.200312" />
-        <item itemvalue="Python.200311" />
+        <item itemvalue="Python.200316" />
+        <item itemvalue="Python.200314" />
+        <item itemvalue="Python.200313" />
       </list>
     </recent_temporary>
   </component>
@@ -143,12 +218,27 @@
       <option name="presentableId" value="Default" />
       <updated>1583935991745</updated>
       <workItem from="1583935992827" duration="12518000" />
-      <workItem from="1584062261132" duration="10931000" />
+      <workItem from="1584062261132" duration="16214000" />
+      <workItem from="1584518892573" duration="2836000" />
+      <workItem from="1584666457554" duration="16125000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -160,7 +250,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/til$200313.coverage" NAME="200313 Coverage Results" MODIFIED="1584098417255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm" />
+    <SUITE FILE_PATH="coverage/til$200324.coverage" NAME="200324 Coverage Results" MODIFIED="1585057160237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm/brute_force" />
     <SUITE FILE_PATH="coverage/til$200311.coverage" NAME="200311 Coverage Results" MODIFIED="1583979501200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm" />
-    <SUITE FILE_PATH="coverage/til$200312.coverage" NAME="200312 Coverage Results" MODIFIED="1584079939577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm" />
+    <SUITE FILE_PATH="coverage/til$200314.coverage" NAME="200314 Coverage Results" MODIFIED="1584327135846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm/stack" />
+    <SUITE FILE_PATH="coverage/til$200316.coverage" NAME="200316 Coverage Results" MODIFIED="1584519284372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm/queue" />
+    <SUITE FILE_PATH="coverage/til$200312.coverage" NAME="200312 Coverage Results" MODIFIED="1584973079453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-structure-algorithm" />
   </component>
 </project>

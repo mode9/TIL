@@ -1,3 +1,5 @@
+import collections
+
 class Node:
 
     def __init__(self, item):
