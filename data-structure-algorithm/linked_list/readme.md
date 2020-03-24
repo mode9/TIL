@@ -60,10 +60,24 @@ def concat(self, L):
     self.nodeCount += L.nodeCount
 ```
 * Better
-    * 더미헤드와 더미테일이 있기 때문에 결과적으로 새로운 링크드리스트가 빈 리스트라도 new_head.next 는 new_tail 을 가리키게 된다. 
-    따라서 new_next == new_tail 이므로 따로 new_tail.prev 를 수정할 필요는 없다.
-    따라서 빈 리스트인지 체크하고 new_tail 을 직접적으로 다룰 필요는 없다. 삭제했더니 역시 가독성이 훨씬 낫다.
-```pyton
+    * 더미헤드와 더미테일이 있기 때문에 입력받은 링크드리스트(L)가 비었다면 더미 head.next == 더미 tail 이다. 
+     
+    ```python
+    if new_next == new_tail:
+            new_tail.prev = old_last
+            old_last.next = new_tail
+    ```   
+    위 구문은 L이 비었을 경우 old_last_node <--> new_dummy_tail 를 연결하는 코드인데,
+    위에서 설명한 바와 같이 결과적으로 L이 빈 경우에도 new_next 는 더미 tail 을 가리키게 되므로 
+    ```python
+    new_tail.prev = old_last
+    new_next.prev = old_last
+  
+    old_last.next = new_tail 
+    old_last.next = new_next 
+    ```
+    빈 L이 입력되면 위 두 줄은 같다. 따라서 if 문은 필요없는 코드다.
+```python
 def concat(self, L):
     old_last = self.tail.prev
     new_next = L.head.next
