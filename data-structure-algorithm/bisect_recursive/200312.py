@@ -50,6 +50,20 @@ def binary_search(L, x):
     return lower
 
 
+def bisect_recursive(L, x, lower=None, upper=None):
+    if not lower and not upper:
+        lower = 0
+        upper = len(L) - 1
+    middle = (lower + upper) // 2
+    if L[middle] == x:
+        return middle
+    elif L[middle] < x:
+        lower = middle + 1
+    else:
+        upper = middle
+    return bisect_recursive(L, x, lower, upper)
+
+
 def fibonacci_recursive(n):
     if n <= 1:
         return n
@@ -67,5 +81,6 @@ def fibonacci_iterative(n):
 
 if __name__ == '__main__':
     lst = [1, 3, 6, 9, 10, 20, 35, 70]
-    idx = binary_search(lst, 3)
-    print(lst[idx])
+    # idx = binary_search(lst, 3)
+    # print(lst[idx])
+    idx = bise

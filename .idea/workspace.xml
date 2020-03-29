@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62108c4f-dab3-47b4-a0d6-69eedd115a30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure-algorithm/linked_list/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-algorithm/linked_list/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure-algorithm/bisect_recursive/200312.py" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-algorithm/bisect_recursive/200312.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +205,8 @@
       <workItem from="1583935992827" duration="12518000" />
       <workItem from="1584062261132" duration="16214000" />
       <workItem from="1584518892573" duration="2836000" />
-      <workItem from="1584666457554" duration="18486000" />
+      <workItem from="1584666457554" duration="20146000" />
+      <workItem from="1585118287467" duration="755000" />
     </task>
     <servers />
   </component>

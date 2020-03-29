@@ -1,0 +1,4 @@
+- Sequential Search
+- Binary Search
+- Hashing
+- Hash Tables
