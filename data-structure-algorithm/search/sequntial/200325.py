@@ -59,3 +59,21 @@ def recursive_binary_search(arr, ele):
                 return recursive_binary_search(arr[:mid], ele)
             else:
                 return recursive_binary_search(arr[mid+1:], ele)
+
+
+def get_n(n):
+    _sum = 0
+    for i in str(n):
+        _sum += int(i)
+    return n + _sum
+
+
+if __name__ == '__main__':
+    n = int(input())
+    min_constructor = 0
+    length = len(str(n))
+    for num in range(n - 9 * length, n + 1):
+        if get_n(num) == n:
+            min_constructor = num
+            break
+    print(min_constructor)
