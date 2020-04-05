@@ -1,6 +1,6 @@
-포화 이진트리(Full Binary Tree)
--
-모든 레벨에서 노드들이 채워져 있는 이진 트
+# 포화 이진트리(Full Binary Tree)
+
+모든 레벨에서 노드들이 채워져 있는 이진 트리
 높이(height, depth)가 k일 때, 노드의 갯수가 2^k - 1 인 이진 트리
 
 완전 이진 트리(Complete Binary Tree)

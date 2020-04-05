@@ -1,3 +1,7 @@
+# GIT
+
+### 수정 중
+
 working tree: 아직 버전관리가 되지 않은 추가/수정 파일
 
 staging area: working tree 에서 사용자가 지정한 파일들을 저장되는 공간(git add)

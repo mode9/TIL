@@ -305,7 +305,6 @@ def main():
     ll.head = node1
     ll.tail = node3
     print(ll.traverse())
-    print(ll.lkas)
 
 
 if __name__ == '__main__':

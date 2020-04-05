@@ -3,6 +3,22 @@ class MaxHeap:
     def __init__(self):
         self.data = [None]
 
+    def insert(self, item):
+        self.data.append(item)
+        new_index = self.data.index(item)
+        parent_index = new_index // 2
+        while new_index > 1:
+            if self.data[new_index] > self.data[parent_index]:
+                self.data[new_index], self.data[parent_index] = self.data[
+                                                                    parent_index], \
+                                                                self.data[
+                                                                    new_index]
+                new_index = parent_index
+                parent_index = new_index // 2
+                from heapq import heappop, heappush
+            else:
+                break
+
     def remove(self):
         """
         만약 빈 Heap 이 아니라면,
@@ -29,7 +45,7 @@ class MaxHeap:
 
         smallest = i
         # 왼쪽 자식이 존재하는지, 그리고 왼쪽 자식의 (키) 값이 (무엇보다?) 더 큰지를 판단합니다.
-        if self.data[left] and self.data[left] > self.data[smallest]:
+        if len(self.data) - 1 > left and self.data[left] > self.data[smallest]:
             # 조건이 만족하는 경우, smallest 는 왼쪽 자식의 인덱스를 가집니다.
             smallest = left
 
