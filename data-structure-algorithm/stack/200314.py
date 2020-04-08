@@ -99,3 +99,7 @@ def solution(S):
         answer += opStack.pop()
 
     return answer
+
+
+S = ArrayStack()
+print(S.isEmpty())
