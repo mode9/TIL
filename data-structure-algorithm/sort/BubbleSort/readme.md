@@ -21,9 +21,9 @@ def bubble_sort(unsorted):
     last_element_count = 1
     length = len(unsorted) - last_element_count
     for i in range(length):
-				for j in range(length-i):
-						if unsorted[j] > unsorted[j+1]:
-								unsorted[j], unsorted[j+1] = unsorted[j+1], unsorted[j]
+        for j in range(length-i):
+            if unsorted[j] > unsorted[j+1]:
+                unsorted[j], unsorted[j+1] = unsorted[j+1], unsorted[j]
 		sorted_ = unsorted
 		return sorted_
 ```
