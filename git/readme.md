@@ -42,6 +42,10 @@ H | D | T | CONFLICT | CONFLICT |
 
 from [생활코딩](https://opentutorials.org/course/3840/23684)
 
-
+git stash
 git workflow, git flow
 git cherrypik
+
+
+
+git fsck --unreachable | grep commit | cut -d ' ' -f3 | xargs git log --merges --no-walk --grep=WIP
